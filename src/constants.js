@@ -22,10 +22,11 @@ import tailwindcssLogo from "./assets/techLogo/tailwindcss.png";
 import typescriptLogo from "./assets/techLogo/typescript.png";
 import vscodeLogo from "./assets/techLogo/vscode.png";
 
-// Experience Section Logo's
-// import webverseLogo from "./assets/company_logo/webverse_logo.png";
-// import agcLogo from "./assets/company_logo/agc_logo.png";
-// import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
+// Experience Section Logos
+import ajackusLogo from './assets/companyLogo/ajackusLogo.png';
+import crownstackLogo from './assets/companyLogo/crownstackLogo.png';
+import cutedgetechLogo from './assets/companyLogo/cutedgetechLogo.png';
+import psiborgLogo from './assets/companyLogo/psiborgLogo.png';
 
 // Education Section Logo's
 // import glaLogo from "./assets/education_logo/gla_logo.png";
@@ -90,54 +91,44 @@ export const SkillsInfo = [
   },
 ];
 
-// export const experiences = [
-//   {
-//     id: 0,
-//     img: webverseLogo,
-//     role: "Fullstack Developer",
-//     company: "Webverse Digital",
-//     date: "April 2024 - Present",
-//     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-//     skills: [
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//       "React JS",
-//       "TypeScript",
-//       "Node JS",
-//       "Tailwind CSS",
-//       "MongoDb",
-//       "Redux",
-//       " Next Js",
-//     ],
-//   },
-//   {
-//     id: 1,
-//     img: agcLogo,
-//     role: "Fullstack Engineer",
-//     company: "Agumentik Group of Companies",
-//     date: "July 2023 - March 2024",
-//     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-//     skills: [
-//       "ReactJS",
-//       "Redux",
-//       "JavaScript",
-//       "Tailwind CSS",
-//       "HTML",
-//       "CSS",
-//       "SQL",
-//     ],
-//   },
-//   {
-//     id: 2,
-//     img: newtonschoolLogo,
-//     role: "Frontend Intern",
-//     company: "Newton School",
-//     date: "September 2021 - August 2022",
-//     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-//     skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
-//   },
-// ];
+export const ExperienceInfo = [
+  {
+    id: 1,
+    img: ajackusLogo,
+    role: "Associate Software Developer",
+    company: "Ajackus",
+    date: "November 2023 - Present",
+    desc: "As a software developer, built web and mobile applications using React.js and React Native, integrated APIs with React Query, and worked on Airtable and Next.js projects, leveraging various AI tools to improve efficiency and deliver scalable, modern solutions.",
+    skills: ["React JS", "React Native", "React Query", "Javascript", "Airtable", "NextJS"],
+  },
+  {
+    id: 2,
+    img: psiborgLogo,
+    role: "React Native Developer",
+    company: "Psiborg Technologies Pvt. Ltd.",
+    date: "September 2023 - October 2023",
+    desc: "As a React Native developer, contributed to building IoT-enabled mobile applications by integrating sensor data, enabling real-time insights and enhancing functionality for connected devices.",
+    skills: ["React Native", "IoT"],
+  },
+  {
+    id: 3,
+    img: cutedgetechLogo,
+    role: "React Native Developer",
+    company: "Cut Edge Technology",
+    date: "January 2023 - September 2023",
+    desc: "As a React Native developer, worked on diverse projects implementing complex features like chat functionality, multilingual support, theme switching, and payment gateways, enhancing usability and delivering seamless, user-centric mobile experiences.",
+    skills: ["React Native", "Redux", "Socket.io", "Payment Gateways"],
+  },
+  {
+    id: 4,
+    img: crownstackLogo,
+    role: "React Native Intern & Developer",
+    company: "Crownstack Technologies",
+    date: "October 2021 - December 2022",
+    desc: "Started as a React Native intern and grew into a developer, creating scalable UI components from Figma designs and collaborating with the team to deliver smooth, user-friendly mobile applications that enhanced overall product experience.",
+    skills: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React Native", "Redux", "Figma"],
+  },
+];
 
 // export const education = [
 //   {
